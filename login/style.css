@@ -20,7 +20,7 @@ body {
 .quadrado1 {
     width: 100%;
     height: 100%;
-    background-color: #FCB516;
+    background-color: #ffae00;
     border-radius: 50px 0px 0px 50px;
     text-align: center;
     display: flex;
@@ -30,7 +30,7 @@ body {
     flex-direction: column;
 }
 .titulo1 {
-    text-decoration: underline;
+    padding-bottom: 60px;
     font-size: 45px;
     color: #04334E;
 }
@@ -57,7 +57,7 @@ body {
     border: none;
 }
 .b2 {
-    background-color: #FCB516;
+    background-color: #ffae00;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
@@ -73,10 +73,10 @@ header {
     display: flex; 
 }
 .prefeitura {
-width: 60px;
-height: 80px;
-padding-left: 20px;
-padding-top: 8px;
+    width: 60px;
+    height: 80px;
+    padding-left: 20px;
+    padding-top: 8px;
 }
 .eptran {
     width: 100px;
@@ -90,12 +90,9 @@ padding-top: 8px;
     margin-left: 1750px;
     padding-top: 20px;
 }
-#eptran-image {
-    width: 120px;
-}
-
 #prefeitura-image {
-    width: 80px;
+    padding-top: 120px;
+    width: 230px;
 }
 
 #login {
@@ -104,8 +101,9 @@ padding-top: 8px;
     padding: 10px 40px;
 }
 .esqueceu {
-    margin-right: 200px;
-    font-size: 20px;
+    margin-right: 220px;
+    font-size: 18px;
+    padding-bottom: 70px;
 }
 .ainda {
     font-size: 20px;
