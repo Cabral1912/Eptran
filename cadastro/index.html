@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <img src="imagens/Logotipo Prefeitura.png" alt="" class="prefeitura">
+    <img src="imagens/Logo Eptran.png" alt="" class="eptran">
+    <img src="imagens/Linhas.png" alt="" class="menu">
+</header>
+
+<body>
+    <div class="container"><h1><u>CADASTRE-SE</u></h1>
+        <br>
+        <div class="um"><form action="processamento.php" method="post">
+            <div class="campos">
+
+            <div class="coluna1">
+                <br><br>
+            <p><label for="nome"> Nome:
+               <input type="text" name="nome" id="nome" maxlenght="20" placeholder="Digite seu primeiro nome" class="caixa">
+            </label></p> <br>
+            <p><label for="email"> E-mail: 
+                <input type="email" id="email" placeholder="Digite seu email" class="caixa">
+            </label></p> <br>
+
+            <p><label for="senha">Senha: 
+                <input type="password" id="senha" placeholder="Mínimo 8 caracteres" maxlength="8" class="caixa">
+            </label></p> <br>
+
+            <p><label for="cidade">Idade:
+                <input type="date" id="idade" placeholder="Digite sua idade" class="caixa">
+            </label></p> <br>
+
+            <p><label for="estadocivil">Gênero: <br><br>
+                <input type="radio" name="ec" checked> Masculino 
+                <input type="radio" name="ec" id="estadocivil"> Feminino
+                <br><br>
+                <input type="radio" name="ec" >Prefiro não responder
+            </label></p>
+             
+        </div>
+    </div> 
+<br><br>
+        <div class="campos">
+        <div class="coluna2"> 
+            <p><label for="nome"> Sobrenome:
+             <input type="text" name="nome" id="sobrenome" maxlenght="20" placeholder="Informe seu segundo nome" class="caixa">
+            </label></p> <br>
+
+            <p><label for="telefone">Telefone:
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx" class="caixa"></label></p> <br>
+
+            <p><label for="senha">Confirme sua senha: 
+            <input type="password" id="senha" placeholder="Mínimo 8 caracteres" maxlength="8" class="caixa">
+            </label></p> <br>
+
+            <p><label for="tipodeacesso">Tipo de acesso: <br><br>
+            <input type="radio" name="ec" checked> Aluno
+            <input type="radio" name="ec" id="estadocivil"> Professor
+            <br><br>
+            <input type="radio" name="ec" > EPTRAN
+            </label></p> <br>
+
+                <input type="submit" value="CONTINUAR" class="enviar"> 
+                <div></div>
+                </label>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
